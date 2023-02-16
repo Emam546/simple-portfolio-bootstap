@@ -4,7 +4,7 @@ export default function TeamMates() {
     return (
         <div className="team-mates overlay overlay-dark">
             <Swapper id="TeamMates">
-                <div className="text-center text-light">
+                <div className="text-center text-light container">
                     <div className="rounded-circle">
                         <img src="./images/testi-thumb.png" alt="" />
                     </div>
@@ -18,7 +18,7 @@ export default function TeamMates() {
                         dolore magna aliqua. Ut enim ad minim veniam
                     </p>
                 </div>
-                <div className="text-center text-light">
+                <div className="text-center text-light container">
                     <div className="rounded-circle">
                         <img src="./images/testi-thumb.png" alt="" />
                     </div>
@@ -32,7 +32,7 @@ export default function TeamMates() {
                         dolore magna aliqua. Ut enim ad minim veniam
                     </p>
                 </div>
-                <div className="text-center text-light">
+                <div className="text-center text-light container">
                     <div className="rounded-circle">
                         <img src="./images/testi-thumb.png" alt="" />
                     </div>

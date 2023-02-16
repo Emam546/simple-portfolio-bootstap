@@ -13,7 +13,7 @@ export default function WhyChooseUs() {
                     ></div>
                 </div>
                 <div className="col-lg-6 p-0 m-0">
-                    <div className="text-container bg-blue text-white ps-5 pe-5 lh-l fs-5">
+                    <div className="text-container bg-blue text-white container pt-5 pb-5 ps-md-5 pe-md-5 lh-l fs-5">
                         <h1 className="fw-boldest display-3 mb-4">Why Choose Us</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -24,12 +24,12 @@ export default function WhyChooseUs() {
                             reprehenderit in voluptate velit esse cillum dolore
                             eu fugiat nulla pariatur.
                         </p>
-                        <p>
+                        <p className="mb-5">
                             Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua
                         </p>
-                        <a href="#" className="d-block w-fit mt-5 bg-red h-bg-blue trans-3 p-3 ps-5 pe-5 text-decoration-none text-white">VIEW MORE</a>
+                        <a href="#" className="bg-red h-bg-blue trans-3 p-3 ps-5 pe-5 text-decoration-none text-white">VIEW MORE</a>
                     </div>
                 </div>
             </div>

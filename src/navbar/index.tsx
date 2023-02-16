@@ -31,7 +31,7 @@ export default function NavBar() {
                                 <li className="nav-item">
                                     <div className="accordion-item">
                                         <button
-                                            className="d-flex justify-content-between align-items-center w-100 text-bg-dark p-2 ps-3 pe-2"
+                                            className="d-flex justify-content-between align-items-center w-100 text-bg-dark  ps-3 pe-2"
                                             type="button"
                                             data-bs-toggle="collapse"
                                             data-bs-target="#collapseHomeInput"

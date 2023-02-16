@@ -80,7 +80,7 @@ export default function Features() {
     const [state, setState] = useState(All);
     return (
         <div className="gallery pt-5 pb-5">
-            <div className="text-center">
+            <div className="text-center container">
                 <h1 className="fw-boldest display-3">Featured Work</h1>
                 <p className="text-555 wm-500px m-auto pt-4 pb-4 fs-5">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

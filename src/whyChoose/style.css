@@ -20,9 +20,11 @@
         height: 205px;
     }
 }
-.why-choose-us .text-container{
-    padding-top: 100px;
-    padding-bottom: 100px;
+@media (min-width: 768px){
+    .why-choose-us .text-container{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
 }
 .why-choose-us .text-container p{
     color: #b5c3c9;
