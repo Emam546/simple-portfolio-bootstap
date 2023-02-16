@@ -1,0 +1,19 @@
+.landing{
+    margin-top: 90px;
+    height: calc(100vh - 90px);
+}
+@media (max-width:768px){
+    .landing{
+        margin-top: 70px;
+        height: calc(100vh - 70px);
+    }
+}
+.swapper{
+    height: 100%;
+}
+.landing .carousel-inner{
+    height: 100% !important;
+}
+.landing .carousel-item{
+    height: 100% !important;
+}

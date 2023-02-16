@@ -1,0 +1,26 @@
+.footer .links-array > li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.footer .links-array > li::before{
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    color: #ccc;
+    font-size: 0.8em;
+}
+.footer .links-array > li a:hover{
+    transform: translateX(5px);
+}
+.footer .social-icons{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    
+}
+.footer .social-icons a{
+    color: #a0a0a0;
+    text-decoration: none;
+
+}

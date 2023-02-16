@@ -1,0 +1,17 @@
+.team-mates{
+    
+    background-image: url("./images/testimonial-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.team-mates .swapper{
+    min-height: 620px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

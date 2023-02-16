@@ -1,0 +1,24 @@
+.offcanvas .navbar-nav li{
+    border-top: 1px solid #444444;
+}
+
+.accordion-item > button .open,
+.accordion-item > button .close{
+    display: none;
+    color: inherit;
+}
+.accordion-item > button[aria-expanded="true"] .open{
+    display: block;
+}
+.accordion-item > button[aria-expanded="false"] .close{
+    display: block;
+}
+.offcanvas .accordion-item > button{
+    border: none;
+}
+.offcanvas .accordion-item .accordion-collapse *{
+    background-color: #343434 !important;
+}
+.offcanvas .accordion-item > button:focus{
+    outline: none;
+}

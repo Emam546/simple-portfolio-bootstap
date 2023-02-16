@@ -1,0 +1,7 @@
+.pricing .plan-table{
+    box-shadow: 0 0 4px 0 rgb(130 121 121 / 20%);
+    transition: 0.3s;
+}
+.pricing .plan-table:hover{
+    transform: translateY(-7px);
+}
