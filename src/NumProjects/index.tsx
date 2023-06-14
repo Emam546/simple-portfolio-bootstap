@@ -1,10 +1,9 @@
 import { ReactNode, useEffect, useRef, useState } from "react";
 import handleViewport from "react-in-viewport";
 import "./style.css";
-import { Props } from "react-in-viewport/dist/types/lib/types";
 const interval = 2000;
 const step = 40;
-
+const duration = Math.floor(interval / step);
 function Counter({ children }: { children: ReactNode }) {
     const [startValue, setStartValue] = useState(0);
     if (!children) return null;
@@ -14,7 +13,7 @@ function Counter({ children }: { children: ReactNode }) {
         ({ inViewport, forwardedRef, enterCount }) => {
             useEffect(() => {
                 if (!(inViewport && enterCount === 1)) return;
-                const duration = Math.floor(interval / step);
+                
                 const increment = Math.ceil(endValue / step);
                 const counter = setInterval(function () {
                     setStartValue((pre) => {

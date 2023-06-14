@@ -1,4 +1,6 @@
 import "./App.css";
+import "../bootstrap/css/bootstrap.min.css";
+import "../bootstrap/js/bootstrap.bundle.min";
 import Features from "./Feautures";
 import LastPost from "./LastPost";
 import NumProjects from "./NumProjects";
@@ -14,20 +16,20 @@ import WhyChooseUs from "./whyChoose";
 function App() {
     return (
         <>
-        <NavBar />
-        <main>
-            <Landing />
-            <Services />
-            <OverView />
-            <Features />
-            <LastPost />
-            <TeamMates />
-            <Pricing />
-            <WhyChooseUs />
-            <NumProjects />
-            <ContactUs />
-        </main>
-        <Footer />
+            <NavBar />
+            <main>
+                <Landing />
+                <Services />
+                <OverView />
+                <Features />
+                <LastPost />
+                <TeamMates />
+                <Pricing />
+                <WhyChooseUs />
+                <NumProjects />
+                <ContactUs />
+            </main>
+            <Footer />
         </>
     );
 }
